@@ -15,56 +15,78 @@
     <header>
         <div class="cabecera">
             <h1><img src="imagenes/logo.jpg"></h1>
-            <nav>
-                <ul>
-                    <li>Datos del pasajero</li>
-                    <li>Datos del boleto</li>
-                </ul>
-            </nav>
         </div>
     </header>
     <main>
         <div class="container">
             <form class="form">
             
-                <section>
+                <section class="col-2">
                     <p>Logo</p>
                 </section>
-                <section>
+                <section class="col-5">
                     <h5>Datos del Pasajero</h5>
                     <!--Inputs-->
-                    <label for="nombreCompleto">Nombre completo</label>
-                    <input type="text" id="nombreCompleto" class="input-padron" required>
-                    <label for="edad">Edad</label>
-                    <input type="text" id="edad" class="input-padron" required>
-                    <label for="genero">Género</label>
-                    <input type="text" id="genero" class="input-padron" required>
+                    <div class="row mt-3">
+                        <label for="nombreCompleto">Nombre completo</label>
+                        <input type="text" id="nombreCompleto" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="edad">Edad</label>
+                        <input type="text" id="edad" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="genero">Género</label>
+                        <input type="text" id="genero" class="input-padron" required>
+                    </div>
                     <!--Toggles-->
-                    <label for="familiaresABordo">Familiares a bordo</label>
-                    <input type="submit" id="familiaresABordo" class="input-padron" required>
-                    <label for="hijos">Hijos</label>
-                    <input type="submit" id="hijos" class="input-padron" required>
-                    <label for="otrosFamiliares">Otros familiares</label>
-                    <input type="submit" id="otrosFamiliares" class="input-padron" required>
+                    <div class="row mt-3">
+                        <label for="familiaresABordo">Familiares a bordo</label>
+                        <input type="submit" id="familiaresABordo" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="hijos">Hijos</label>
+                        <input type="submit" id="hijos" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="otrosFamiliares">Otros familiares</label>
+                        <input type="submit" id="otrosFamiliares" class="input-padron" required>
+                    </div>
                     <!--Inputs-->
-                    <label for="hijos">Hijos</label>
-                    <input type="text" id="genero" class="input-padron" required>
-                    <label for="genero">Género</label>
-                    <input type="text" id="genero" class="input-padron">
+                    <div class="row mt-3">
+                        <label for="hijos">Hijos</label>
+                        <input type="text" id="genero" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="genero">Género</label>
+                        <input type="text" id="genero" class="input-padron">
+                    </div>
                 </section>
-                <section>
+                <section class="col-5">
                     <h5>Detalles del boleto</h5>
-                    <label for="numeroBoleto">Número de boleto</label>
-                    <input type="text" id="numeroBoleto" class="input-padron" required>
-                    <label for="tarifa">Tarifa</label>
-                    <input type="text" id="tarifa" class="input-padron">
-                    <label for="claseBoleto">Clase del boleto</label>
-                    <input type="text" id="claseBoleto" class="input-padron" required>
-                    <label for="numeroCabina">Número de cabina</label>
-                    <input type="text" id="numeroCabina" class="input-padron">
-                    <label for="puerto">Puerto de embarque</label>
-                    <input type="text" id="puerto" class="input-padron" required>
-                    <input type="submit" value="Predecir supervivencia" class="predecir">
+                    <div class="row mt-3">
+                        <label for="numeroBoleto">Número de boleto</label>
+                        <input type="text" id="numeroBoleto" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="tarifa">Tarifa</label>
+                        <input type="text" id="tarifa" class="input-padron">
+                    </div>
+                    <div class="row mt-3">
+                        <label for="claseBoleto">Clase del boleto</label>
+                        <input type="text" id="claseBoleto" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3">
+                        <label for="numeroCabina">Número de cabina</label>
+                        <input type="text" id="numeroCabina" class="input-padron">
+                    </div>
+                    <div class="row mt-3">
+                        <label for="puerto">Puerto de embarque</label>
+                        <input type="text" id="puerto" class="input-padron" required>
+                    </div>
+                    <div class="row mt-3" center>
+                        <input type="submit" value="Predecir supervivencia" class="predecir">
+                    </div>
                 </section>
             </form>
         </div>
